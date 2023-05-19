@@ -703,8 +703,9 @@ justify-content: center; */
 }
 
 .cta-text {
-  padding-left: 15px;
+  /* padding-left: 15px; */
   display: inline-block;
+  padding-top: 15px;
 }
 
 .cta-text span {
@@ -758,7 +759,7 @@ justify-content: center; */
   font-size: 20px;
   font-weight: 700;
   font-family: 'Poppins', sans-serif;
-  margin-bottom: 20px;
+  margin: 20px 0 10px 0;
 }
 
 .footer-social-icon a {
@@ -820,7 +821,9 @@ justify-content: center; */
   color: #878787;
   text-transform: capitalize;
 }
-
+.footer-social-icon  i{
+  background-color: #ffc107;
+}
 .subscribe-form {
   position: relative;
   overflow: hidden;
